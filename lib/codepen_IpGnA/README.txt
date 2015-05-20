@@ -1,0 +1,3 @@
+A Pen created at CodePen.io. You can find this one at http://codepen.io/anon/pen/IpGnA.
+
+ Similar to Masonry, but with less heavy javascript. This particular version is limited to just square and 2:3 tall images, so it's definitely not as flexible as masonry, just snappier. All positioning is done in CSS, with just a single Javascript loop over the elements to update the classes. Note that bad images would expose the background.
