@@ -52,7 +52,7 @@
 							<ul class="nav navbar-nav navbar-right">
 								<li><a href="#welcome">Audiently</a></li>
 								<li><a href="#about">About</a></li>
-								<li><a href="#contact">Contact</a></li>
+								<li><a href="#subscribe">Subscribe</a></li>
 							</ul>
 						</div><!--/.nav-collapse -->
 					</div>
@@ -161,62 +161,39 @@
 		</div>
 	</section>	
 	
-	<!-- Separator -->	
-	<section class="separator">
+	<!-- Subscribe -->	
+	<section id="subscribe">
 		<div class="bg bg1">
 			<div class="bgColor">
 				<div class="container text-center">
 					<div class="row">
-						
+						<div class="col-md-12 title" data-uk-scrollspy="{cls:'uk-animation-scale-up', repeat: true}">
+							<h2><span>SUBSCRIBE</span> FOR UPDATES</h2>
+						</div>
+					</div>
+					<div class="row" data-uk-scrollspy="{cls:'uk-animation-scale-up', repeat: true}">
+						<div class="col-md-2"></div>
+						<div class="col-md-8 text-center">											
+							<form id="signup" action="index.html" method="get">
+								<fieldset>
+										<span id="response"></span>
+								</fieldset>
+								
+								<fieldset>	
+									<input type="text" name="email" id="email" placeholder="Email Address"/>
+									<input type="submit" name="submit" value="Join" class="button" />
+								
+									<div id="no-spam">We'll never spam or give this address away</div>
+							  </fieldset>
+							</form> 						
+							
+						</div>
+						<div class="col-md-2"></div>
 					</div>
 				</div>
 			</div>
 		</div>
     </section>
-	
-	<!-- contact -->	 
-	<section id="contact" class="wrapper">
-		<div class="container text-center">
-			<div class="row">
-				<div class="col-md-12 title" data-uk-scrollspy="{cls:'uk-animation-scale-up', repeat: true}">
-					<h2><span>CONTACT</span> US</h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12">
-					
-					<h1>GET IN TOUCH FOR MORE INFORMATION</h1>
-				</div>
-			</div> 
-
-			<div class="row">				
-				<div class="contFrm">
-								
-						<form id="contactform" action="lib/Simple-Form/mail.php" method="post">	
-							<div class="col-md-6 col-sm-6 text-right">													
-								<fieldset>										
-									<input type="text" name="Your_Name" placeholder="Your name">
-								</fieldset>
-								<fieldset>										
-									<input type="text" name="Email_Address" placeholder="Your email address">
-								</fieldset>
-								<fieldset>																		
-									<input type="text" name="Phone_Number" placeholder="Your phone number">
-								</fieldset>
-							</div>
-							<div class="col-md-6 col-sm-6 text-left">
-								<fieldset>																		
-									<textarea name="Message" placeholder="Your question"></textarea>
-								</fieldset>
-								<fieldset>
-									<input type="submit" value="Send!" class="button">									
-								</fieldset>
-							</div>
-						</form>							
-				</div>
-			</div>
-		</div>
-	</section>    
         
 	<!-- footer -->	
 	<div class="footer lightgray">
