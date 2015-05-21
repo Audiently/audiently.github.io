@@ -8,11 +8,11 @@
 }
 
 .purchase_button{
-	background:#DE2168;
+	background:#FF5D37;
 }
 
 #about .col-md-3:hover  .fa{
-	color:#DE2168;
+	color:#FF5D37;
 }
 
 .bgColor{
@@ -23,28 +23,28 @@
 }
 
 .team-social .fa:hover{
-	color:#DE2168;
+	color:#FF5D37;
 }
 
 .team-social ul li a:hover{
 	background:#fff;
-	border:1px #DE2168 solid;
+	border:1px #FF5D37 solid;
 }
 
 .flat .plan.featured:hover li.plan-name {
-	background: #DE2168;
+	background: #FF5D37;
 }
 .flat .plan:hover li.plan-name {
-	background: #DE2168;
+	background: #FF5D37;
 }
 
 .button{
 	/* background-color:#B8255C; */
-	background-color:#DE2168;
+	background-color:#FF5D37;
 }
 
 .social .fa:hover{
-	color:#DE2168;
-	border:2px solid #DE2168;
+	color:#FF5D37;
+	border:2px solid #FF5D37;
 	text-decoration:none;
 }
